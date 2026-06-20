@@ -169,6 +169,45 @@ h1.logo {
     font-size: 20px;
 }
 
+/*call to action section*/
 
+.call-to-action-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-to-action-banner {
+    background-color: #3882F6;
+    padding: 30px;
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-header {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.call-to-action-secondary-text {
+    font-size: 17px;
+    color: white;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 30px;
+    align-self: flex-start;
+    border-radius: 8px;
+    border: 2px solid white;
+}
 /*footer*/
 
