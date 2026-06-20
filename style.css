@@ -54,7 +54,6 @@ h1.logo {
 .content {
     display: flex;
     flex-direction: column;
-    gap: 80px;
 }
 
 /*introduction section*/
@@ -62,6 +61,7 @@ h1.logo {
 .introduction-section {
     display: flex;
     gap: 80px;
+    height: 500px;
 }
 
 .introduction-img {
@@ -106,6 +106,7 @@ h1.logo {
 }
 
 /*information section*/
+
 .information-section {
     display: flex;
     flex-direction: column;
@@ -113,6 +114,7 @@ h1.logo {
     align-items: center;
     gap: 32px;
     padding: 30px;
+    height: 500px;
 }
 
 .information-header {
@@ -125,6 +127,48 @@ h1.logo {
     display: flex;
     gap: 32px;
 }
+
+.image-with-subtext {
+    width: 200px;
+    height: 400px;
+}
+
+.info-image {
+    object-fit: cover;
+    width: 100%;
+    height: auto; 
+    border-radius: 12px;
+    border: 5px solid #3882F6;  
+
+}
+.image-subtext {
+    font-size: 18px;
+    color:#1f2937;
+}
+
+/*testimonial section*/
+.testimonial-section {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    width: 900px;
+}
+
+.quote-source {
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 /*footer*/
 
